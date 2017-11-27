@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
-    <title>one plus logo</title>
+    <title>one_plus_logo</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="60" height="60"></rect>
+    </defs>
     <g id="assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="one-plus-logo" fill="#E90C30">
-            <g id="logo" transform="translate(14.000000, 7.000000)">
-                <path d="M49,55.5 L49,58 L0,58 L0,55.5 L0,8 L2.5,8 L32,8 L32,13 L5,13 L5,53 L44,53 L44,25 L49,25 L49,55.5 Z" id="frame"></path>
-                <path d="M22,40 L22,25 L17,25 L17,20 L27,20 L27,22.5 L27,40 L32,40 L32,45 L17,45 L17,40 L22,40 Z" id="one"></path>
-                <path d="M50,8 L50,0 L45,0 L45,8 L37,8 L37,13 L45,13 L45,21 L50,21 L50,13 L57,13 L57,8 L50,8 Z" id="plus"></path>
+        <g id="one_plus_logo">
+            <g>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g mask="url(#mask-2)" fill-rule="nonzero" fill="#E90C30">
+                    <g transform="translate(17.000000, 15.000000)">
+                        <polygon id="frame" points="22.3508772 25.7086207 22.3508772 26.8666667 0 26.8666667 0 25.7086207 0 3.70574713 1.14035088 3.70574713 14.5964912 3.70574713 14.5964912 6.02183908 2.28070175 6.02183908 2.28070175 24.5505747 20.0701754 24.5505747 20.0701754 11.5804598 22.3508772 11.5804598"></polygon>
+                        <polygon id="one" points="10.0350877 18.5287356 10.0350877 11.5804598 7.75438596 11.5804598 7.75438596 9.26436782 12.3157895 9.26436782 12.3157895 10.4224138 12.3157895 18.5287356 14.5964912 18.5287356 14.5964912 20.8448276 7.75438596 20.8448276 7.75438596 18.5287356"></polygon>
+                        <polygon id="plus" points="22.8070175 3.70574713 22.8070175 0 20.5263158 0 20.5263158 3.70574713 16.877193 3.70574713 16.877193 6.02183908 20.5263158 6.02183908 20.5263158 9.72758621 22.8070175 9.72758621 22.8070175 6.02183908 26 6.02183908 26 3.70574713"></polygon>
+                    </g>
+                </g>
             </g>
         </g>
     </g>

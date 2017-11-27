@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>flag</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="60" height="60"></rect>
+    </defs>
+    <g id="assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag">
+            <g>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(19.000000, 23.000000)">
+                        <rect id="Rectangle-2" stroke="none" fill="#128707" fill-rule="nonzero" x="0" y="10" width="22" height="4"></rect>
+                        <rect id="Rectangle" stroke="none" fill="#FE9832" fill-rule="nonzero" x="0" y="0" width="22" height="4"></rect>
+                        <circle id="Oval" stroke="#383887" stroke-width="1" fill="none" cx="11" cy="7" r="2"></circle>
+                        <circle id="Oval-2" stroke="none" fill="#383887" fill-rule="evenodd" cx="11" cy="7" r="1"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
