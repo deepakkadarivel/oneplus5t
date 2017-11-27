@@ -23,6 +23,15 @@ nav {
     width: 60px;
 }
 
+#icon-menu {
+    background: url("assets/menu.svg") no-repeat;
+    display: none;
+}
+
+#toggle-menu {
+    display: none;
+}
+
 #icon-brand {
     background: url("assets/one_plus_logo.svg") no-repeat;
 }
@@ -67,4 +76,57 @@ nav {
 #nav-menu li a:hover {
     color: #E90C30;
     border-bottom: 2px solid #E90C30;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 0 10px;
+    }
+
+    #icon-menu {
+        display: inline;
+        transition: .25s;
+    }
+
+    #icon-menu label {
+        display: block;
+        height: 60px;
+    }
+
+    #icon-brand {
+        margin: 0 auto;
+    }
+
+    #nav-menu {
+        display: none;
+        background-color: #FFFFFF;
+    }
+
+    #icon-country {
+        display: none;
+    }
+
+    #toggle-menu:checked ~ #nav-menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        margin-top: 61px;
+        padding: 0;
+        height: calc(100% - 61px);
+    }
+
+    #toggle-menu:checked + #icon-menu {
+        background: url("assets/close.svg") no-repeat;
+    }
+
+    #icon-cart:hover {
+        background: url("assets/cart.svg") no-repeat;
+        border-bottom: 2px solid transparent;
+    }
+
+    #nav-menu li a:hover {
+        color: #000000;
+        border-bottom: 2px solid transparent;
+    }
 }
