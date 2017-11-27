@@ -23,18 +23,14 @@ nav {
     width: 60px;
 }
 
-#nav-menu {
-    display: flex;
-    list-style: none;
-    margin: 0 auto;
-}
-
 #icon-brand {
     background: url("assets/one_plus_logo.svg") no-repeat;
 }
 
 #icon-cart {
     background: url("assets/cart.svg") no-repeat;
+    border-bottom: 2px solid transparent;
+    transition: .25s;
 }
 
 #icon-cart:hover {
@@ -44,6 +40,12 @@ nav {
 
 #icon-country {
     background: url("assets/flag.svg") no-repeat;
+}
+
+#nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
 }
 
 #nav-menu li a {
@@ -58,6 +60,8 @@ nav {
     font-family: SlateForOnePlus-Light, Helvetica, Arial, sans-serif;
     font-weight: 300;
     margin-top: -1px;
+    border-bottom: 2px solid transparent;
+    transition: .25s;
 }
 
 #nav-menu li a:hover {
